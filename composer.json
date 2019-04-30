@@ -1,0 +1,19 @@
+{
+    "name": "jsyqw/utils",
+    "description": "工具助手",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xx",
+            "email": "ss@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jsyqw\\utils": "src/"
+        }
+    }
+}
