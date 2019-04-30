@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Jsyqw\\utils": "src/"
+            "Jsyqw\\utils\\": "src"
         }
     }
 }
