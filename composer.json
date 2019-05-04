@@ -5,15 +5,30 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "xx",
-            "email": "ss@qq.com"
+            "name": "Jason Wang",
+            "email": "jasonwang1211@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
-            "Jsyqw\\utils\\": "src"
+            "Jsyqw\\Utils\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jsyqw\\PHPUnit\\": "tests/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.x-dev",
+        "phpunit/php-invoker": "^2.0@dev"
     }
 }

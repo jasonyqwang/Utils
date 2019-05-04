@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * 校验
+ * @author  jason <jasonwang1211@gmail.com>
  */
 namespace Jsyqw\Utils;
 

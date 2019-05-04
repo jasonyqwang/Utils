@@ -1,1 +1,3 @@
-test.php
+/vendor
+/build
+composer.lock
