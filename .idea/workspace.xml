@@ -2,413 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2930a0-0492-48aa-9bb8-74c3dacba19a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/logs/clover.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.css/nv.d3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/nv.d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/.js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/FileHelper.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/IPHelper.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/StrHelper.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/ValidateHelper.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phpunit/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/FileHelperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/myclabs/deep-copy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/.php_cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/phive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/PreReleaseSuffix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/Version.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/VersionConstraintParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/VersionConstraintValue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/VersionNumber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/AbstractVersionConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/AndVersionConstraintGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/AnyVersionConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/ExactVersionConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/GreaterThanOrEqualToVersionConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/OrVersionConstraintGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/SpecificMajorAndMinorVersionConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/SpecificMajorVersionConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/constraints/VersionConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/exceptions/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/exceptions/InvalidPreReleaseSuffixException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/exceptions/InvalidVersionException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/src/exceptions/UnsupportedVersionConstraintException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Integration/VersionConstraintParserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/AbstractVersionConstraintTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/AndVersionConstraintGroupTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/AnyVersionConstraintTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/ExactVersionConstraintTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/GreaterThanOrEqualToVersionConstraintTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/OrVersionConstraintGroupTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/PreReleaseSuffixTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/SpecificMajorAndMinorVersionConstraintTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/SpecificMajorVersionConstraintTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/VersionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Element.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Fqsen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Location.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Project.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/ProjectFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/.coveralls.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/easy-coding-standard.neon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Description.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/DescriptionFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/ExampleFinder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Serializer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/StandardTagFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/TagFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/BaseTag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Covers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Deprecated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Example.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Factory/StaticMethod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Factory/Strategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter/AlignFormatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter/PassthroughFormatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Generic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Link.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Method.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Param.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Property.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyRead.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyWrite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Reference/Fqsen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Reference/Reference.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Reference/Url.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Return_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/See.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Since.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Source.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Throws.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Uses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Var_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Version.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/FqsenResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/TypeResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Array_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Boolean.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Callable_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Compound.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Context.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/ContextFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Float_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Integer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Iterable_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Mixed_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Null_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Nullable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Object_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Parent_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Resource_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Scalar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Self_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Static_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/String_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/This.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Void_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpspec/prophecy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.github/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.github/stale.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.php_cs.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/ChangeLog-6.1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Driver/Driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Driver/PHPDBG.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Driver/Xdebug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Exception/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Exception/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Exception/MissingCoversAnnotationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Exception/RuntimeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Exception/UnintentionallyCoveredCodeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Filter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Node/AbstractNode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Node/Builder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Node/Directory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Node/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Node/Iterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Clover.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Crap4j.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Facade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Directory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/coverage_bar.html.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/nv.d3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/octicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/dashboard.html.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/directory.html.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/directory_item.html.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/file.html.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/file_item.html.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/icons/file-code.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/icons/file-directory.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/nv.d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/method_item.html.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/PHP.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/BuildInformation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Coverage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Directory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Facade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Method.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Node.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Project.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Report.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Source.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Tests.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Totals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Xml/Unit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Util.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Version.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccount-clover.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccount-crap4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccount-text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccountTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageClassExtendedTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageClassTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageFunctionParenthesesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageFunctionParenthesesWhitespaceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageFunctionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodOneLineAnnotationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodParenthesesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodParenthesesWhitespaceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNoneTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNotPrivateTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNotProtectedTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNotPublicTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNothingTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveragePrivateTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageProtectedTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveragePublicTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageTwoDefaultClassAnnotations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveredClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveredFunction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Crash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageClassExtendedTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageClassTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageCoversClassPublicTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageCoversClassTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageMethodTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageNotPrivateTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageNotProtectedTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageNotPublicTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoveragePrivateTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageProtectedTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoveragePublicTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoveredClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NotExistingCoveredElementTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForBankAccount/BankAccount.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForBankAccount/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForBankAccount/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForClassWithAnonymousFunction/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForClassWithAnonymousFunction/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForClassWithAnonymousFunction/source_with_class_and_anonymous_function.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForFileWithIgnoredLines/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForFileWithIgnoredLines/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/HTML/CoverageForFileWithIgnoredLines/source_with_ignore.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/XML/CoverageForBankAccount/BankAccount.php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/XML/CoverageForBankAccount/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/XML/CoverageForClassWithAnonymousFunction/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/XML/CoverageForClassWithAnonymousFunction/source_with_class_and_anonymous_function.php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/XML/CoverageForFileWithIgnoredLines/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/Report/XML/CoverageForFileWithIgnoredLines/source_with_ignore.php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/class-with-anonymous-function-clover.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/class-with-anonymous-function-crap4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/class-with-anonymous-function-text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/ignored-lines-clover.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/ignored-lines-crap4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/ignored-lines-text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_class_and_anonymous_function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_ignore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_namespace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_oneline_annotations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_without_ignore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_without_namespace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/BuilderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/CloverTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/CodeCoverageTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/Crap4jTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/FilterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/HTMLTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/TextTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/UtilTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/tests/XmlTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-invoker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/src/Template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/comparator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/diff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/environment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/exporter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/.php_cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/src/Blacklist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/src/CodeExporter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/src/Restorer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/src/Snapshot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/src/exceptions/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/src/exceptions/RuntimeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/BlacklistTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/CodeExporterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/RestorerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/SnapshotTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/BlacklistedChildClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/BlacklistedClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/BlacklistedImplementor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/BlacklistedInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/SnapshotClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/SnapshotDomDocument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/SnapshotFunctions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/global-state/tests/_fixture/SnapshotTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/object-enumerator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/object-reflector" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/recursion-context" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/resource-operations" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/version/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/version/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/version/.php_cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/version/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/version/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/version/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/sebastian/version/src/Version.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/.php_cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/phive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUriException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Token.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollectionException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Tokenizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/XMLSerializer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/NamespaceUriTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenCollectionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenizerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/XMLSerializerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/customns.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/src/Assert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IPHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidateHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidateHelper.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -438,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -550,12 +145,12 @@
             <path>
               <item name="Utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -601,12 +196,12 @@
       <updated>1556532351080</updated>
       <workItem from="1556532352287" duration="706000" />
       <workItem from="1556587007768" duration="18439000" />
-      <workItem from="1556636578077" duration="18492000" />
+      <workItem from="1556636578077" duration="18560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37637000" />
+    <option name="totallyTimeSpent" value="37705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -831,7 +426,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
