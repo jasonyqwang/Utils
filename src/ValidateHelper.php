@@ -8,7 +8,7 @@ namespace Jsyqw\Utils;
 class ValidateHelper
 {
     /**
-     * 检查是否是手机号码
+     * Check phone rule
      * @param $phone
      * @return bool
      */
@@ -21,7 +21,7 @@ class ValidateHelper
     }
 
     /**
-     * 邮箱格式检查
+     * Check email rule
      * @param $email
      * @return bool
      */
@@ -35,7 +35,7 @@ class ValidateHelper
     }
 
     /**
-     * 判断是不是 http 地址
+     * Check it's an HTTP address or not
      * @param $str
      * @return bool
      */

@@ -10,7 +10,7 @@ namespace Jsyqw\Utils;
 class StrHelper
 {
     /**
-     * 生成唯一的数字串
+     * Generate unique num
      * @return string eg: YYYYMMDDHHIISSNNNNNNNNCC 24位
      */
     public static function uniqueNum(){
@@ -26,7 +26,7 @@ class StrHelper
     }
 
     /**
-     * 获取guid
+     * Generate guid
      * @return string  eg: 08178533-5ca4-6194-5745-607197a47faa
      */
     public static function guid(){
@@ -46,7 +46,7 @@ class StrHelper
     }
 
     /**
-     * 方法一：获取随机字符串
+     * Random string
      * @param number $length 长度
      * @param string $type 类型
      * @return string 随机字符串

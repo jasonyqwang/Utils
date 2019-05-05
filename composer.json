@@ -28,7 +28,6 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "7.5.x-dev",
-        "phpunit/php-invoker": "^2.0@dev"
+        "phpunit/phpunit": "7.5.x-dev"
     }
 }

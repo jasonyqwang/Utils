@@ -10,6 +10,7 @@ namespace Jsyqw\Utils;
 class IPHelper
 {
     /**
+     * Get client`s real ip
      * @param bool $useProxy 是否使用代理的ip (有代理的情况下)
      * @link
      * @return string
@@ -37,7 +38,7 @@ class IPHelper
     }
 
     /**
-     * 随机生成国内ip地址
+     * Generate  random chinese`ip
      * @return string
      */
     public static function randIp(){

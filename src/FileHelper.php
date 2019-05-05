@@ -10,7 +10,7 @@ namespace Jsyqw\Utils;
 class FileHelper
 {
     /**
-     * 格式化字节大小
+     * Convert camel case to human readable format
      * @param $bytes
      * @param int $decimals
      * @return string
@@ -32,7 +32,7 @@ class FileHelper
     }
 
     /**
-     * 清空文件夹内的文件和文件夹
+     * Delete dir and files
      * @param $path
      * @param bool $isDelCurrent
      * @return bool
@@ -71,6 +71,7 @@ class FileHelper
     }
 
     /**
+     * Get files extension
      * 获取文件后缀
      * @param $str
      * @return mixed|string
