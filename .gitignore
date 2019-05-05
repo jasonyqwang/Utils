@@ -1,3 +1,6 @@
-/vendor/
-/build/
+build/*
+vendor/*
 composer.lock
+
+# phpstorm
+.idea
