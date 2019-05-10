@@ -351,8 +351,14 @@ class ArrayHelper
     }
 
     /**
-     * check if PHP array is associative or sequential
+     * Check if PHP array is associative or sequential
      * @param array $arr
+     * ```php
+     * array('a', 'b', 'c')  //true
+     * array("0" => 'a', "1" => 'b', "2" => 'c') //false
+     * array("1" => 'a', "0" => 'b', "2" => 'c') //true
+     * array("a" => 'a', "b" => 'b', "c" => 'c') //true
+     * ```
      * @link https://stackoverflow.com/questions/173400
      * @return bool
      */

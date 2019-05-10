@@ -18,6 +18,9 @@ ArrayHelper::index($array, $key, $groups = []);
 
 //Builds a map (key-value pairs) from a multidimensional array or an array of objects.
 ArrayHelper::map($array, $from, $to, $group = null);
+
+//Check if PHP array is associative or sequential.
+ArrayHelper::isAssoc($array);
     
 ```
 
