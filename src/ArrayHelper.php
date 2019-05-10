@@ -349,4 +349,19 @@ class ArrayHelper
 
         return $result;
     }
+
+    /**
+     * check if PHP array is associative or sequential
+     * @param array $arr
+     * @link https://stackoverflow.com/questions/173400
+     * @return bool
+     */
+    public static function isAssoc(array $arr)
+    {
+        if(!$arr){
+            return false;
+        }
+        return array_keys($arr) !== range(0, count($arr) - 1);
+    }
+
 }
