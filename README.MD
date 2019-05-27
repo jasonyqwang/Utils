@@ -78,8 +78,11 @@ ValidateHelper::isHttp($str);
 
 * 一般用于返回统一格式的时候使用（API）
 * 使用的模式三种
-    1.Trait方式引入 Jsyqw\Utils\Traits\Results
+    
+    1.Trait方式引入 ,在 Class 中引入 use Jsyqw\Utils\Traits\Results
+    
     2.面板方式引入 Jsyqw\Utils\Facades\Results  参考laravel的面板设计
+    
     3.对象方式引入 new Jsyqw\Utils\Results
 *  返回结果默认格式定义如下  
 ```php
