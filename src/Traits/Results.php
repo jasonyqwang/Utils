@@ -5,6 +5,7 @@
  */
 
 namespace Jsyqw\Utils\Traits;
+use Closure;
 
 
 trait Results
@@ -64,11 +65,11 @@ trait Results
 
     /**
      * 响应 ajax 返回
-     *
-     * @param string $array    其他返回参数(默认null)
-     * @return mixed|string
+     * @param null $array
+     * @param Closure|null $callback  执行匿名函数，比如设置 header 头信息
+     * @return array
      */
-    public function returnJson($array = null)
+    public function returnJson($array = null, Closure $callback = null)
     {
         // 判断是否覆盖之前的值
         if ($array) {
@@ -82,6 +83,9 @@ trait Results
         if(!$this->arrJson['time']){
             $this->arrJson['time'] = time();
         }
+        if($callback && $callback instanceof Closure){
+            $callback();
+        }
         return $this->arrJson;
     }
 
@@ -90,64 +94,65 @@ trait Results
      * @param array $data
      * @param string $msg
      * @param array $params
-     * @return mixed|string
+     * @param Closure|null $callback
+     * @return array
      */
-    public function success($data = [], $msg = '', $params = [])
+    public function success($data = [], $msg = '', $params = [], Closure $callback = null)
     {
         $arr = array_merge([
             'code' => self::$CODE_SUCCESS,
             'msg' => $msg,
             'data' => $data
         ], $params);
-        return $this->returnJson($arr);
+        return $this->returnJson($arr, $callback);
     }
 
     /**
      * 处理错误返回,参数错误
-     *
      * @param string $msg
      * @param array $params
-     * @return mixed|string
+     * @param Closure|null $callback
+     * @return array
      */
-    public function paramsError($msg = '', $params = [])
+    public function paramsError($msg = '', $params = [], Closure $callback = null)
     {
         $code = self::$CODE_ERROR_PARAMS;
         $arr = array_merge([
             'code' => $code,
             'msg' => $msg,
         ], $params);
-        return $this->returnJson($arr);
+        return $this->returnJson($arr, $callback);
     }
 
     /**
      * 处理错误返回
-     *
      * @param string $msg
      * @param int $code
      * @param array $params
-     * @return mixed|string
+     * @param Closure|null $callback
+     * @return array
      */
-    public function error($msg = '', $code = 2000, $params = [])
+    public function error($msg = '', $code = 2000, $params = [], Closure $callback = null)
     {
         $arr = array_merge([
             'code' => $code,
             'msg' => $msg,
         ], $params);
-        return $this->returnJson($arr);
+        return $this->returnJson($arr, $callback);
     }
 
     /**
      * 认证错误
-     *
      * @param array $params
-     * @return mixed|string
+     * @param Closure|null $callback
+     * @return array
      */
-    public function authError($params = [])
+    public function authError($params = [], Closure $callback = null)
     {
         $arr = array_merge([
             'code' => self::$CODE_ERROR_AUTH,
         ], $params);
-        return $this->returnJson($arr);
+        return $this->returnJson($arr, $callback);
     }
 
     /**
