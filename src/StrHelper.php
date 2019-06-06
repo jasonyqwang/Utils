@@ -10,7 +10,7 @@ namespace Jsyqw\Utils;
 class StrHelper
 {
     /**
-     * Generate unique num
+     * 生成唯一数字
      * @return string eg: YYYYMMDDHHIISSNNNNNNNNCC 24位
      */
     public static function uniqueNum(){
@@ -26,12 +26,12 @@ class StrHelper
     }
 
     /**
-     * Generate guid
+     * 生成唯一的 guid
      * @return string  eg: 08178533-5ca4-6194-5745-607197a47faa
      */
     public static function guid(){
         if (function_exists('com_create_guid')) {
-            return com_create_guid();
+            return trim(com_create_guid(), '{}');
         } else {
             mt_srand((double)microtime() * 1000000);
             $charid = md5(uniqid(rand(), true));
@@ -46,12 +46,12 @@ class StrHelper
     }
 
     /**
-     * Random string
-     * @param number $length 长度
+     * 随机字长度的随机字符串
+     * @param int $length 长度
      * @param string $type 类型
      * @return string 随机字符串
      */
-    function random($length = 6, $type = 'string')
+    public static function random($length = 6, $type = 'string')
     {
         $config = array(
             'number' => '1234567890',

@@ -10,7 +10,7 @@ namespace Jsyqw\Utils;
 class ArrayHelper
 {
     /**
-     * Converts an object or an array of objects into an array.
+     * 把对象或者数组对象，转成数组
      * @param object|array|string $object the object to be converted into an array
      * @param array $properties a mapping from object class names to the properties that need to put into the resulting arrays.
      * The properties specified for each class is an array of the following format:
@@ -85,8 +85,7 @@ class ArrayHelper
     }
 
     /**
-     * Retrieves the value of an array element or object property with the given key or property name.
-     * If the key does not exist in the array or object, the default value will be returned instead.
+     * 获取对象或者数组的指定的值
      *
      * The key may be specified in a dot format to retrieve the value of a sub-array or the property
      * of an embedded object. In particular, if the key is `x.y.z`, then the returned value would
@@ -159,7 +158,7 @@ class ArrayHelper
 
 
     /**
-     * Indexes and/or groups the array according to a specified key.
+     * 根据指定的key，建立key对应索引的数组，或者分组后的索引数组
      * The input should be either multidimensional array or an array of objects.
      *
      * The $key can be either a key name of the sub-array, a property name of object, or an anonymous
@@ -294,7 +293,7 @@ class ArrayHelper
     }
 
     /**
-     * Builds a map (key-value pairs) from a multidimensional array or an array of objects.
+     * 把数组转成 key-value 的形式
      * The `$from` and `$to` parameters specify the key names or property names to set up the map.
      * Optionally, one can further group the map according to a grouping field `$group`.
      *
@@ -352,6 +351,7 @@ class ArrayHelper
 
     /**
      * Check if PHP array is associative or sequential
+     * 检查数组是否是列索引
      * @param array $arr
      * ```php
      * array('a', 'b', 'c')  //true

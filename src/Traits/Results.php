@@ -143,14 +143,16 @@ trait Results
 
     /**
      * 认证错误
+     * @param string $msg
      * @param array $params
      * @param Closure|null $callback
      * @return array
      */
-    public function authError($params = [], Closure $callback = null)
+    public function authError($msg = '', $params = [], Closure $callback = null)
     {
         $arr = array_merge([
             'code' => self::$CODE_ERROR_AUTH,
+            'msg' => $msg
         ], $params);
         return $this->returnJson($arr, $callback);
     }

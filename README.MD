@@ -7,19 +7,19 @@
 ## 数组助手类 ArrayHelper
 ```php
 
-//Converts an object or an array of objects into an array.
+//把对象或者数组对象，转成数组
 ArrayHelper::toArray($object, $properties = [], $recursive = true);
 
-//Retrieves the value of an array element or object property with the given key or property name.
+//获取对象或者数组的指定的值
 ArrayHelper::getValue($array, $key, $default = null);
 
-//Indexes and/or groups the array according to a specified key.
+//根据指定的key，建立key对应索引的数组，或者分组后的索引数组
 ArrayHelper::index($array, $key, $groups = []);
 
-//Builds a map (key-value pairs) from a multidimensional array or an array of objects.
+//把数组转成 key-value 的形式
 ArrayHelper::map($array, $from, $to, $group = null);
 
-//Check if PHP array is associative or sequential.
+//检查数组是否是列索引
 ArrayHelper::isAssoc($array);
     
 ```
@@ -52,13 +52,13 @@ IPHelper::randIp()
 ## StrHelper
 ```php
 
-//Generate unique num eg: YYYYMMDDHHIISSNNNNNNNNCC 24 
+//生成唯一数字 eg: YYYYMMDDHHIISSNNNNNNNNCC 24 
 StrHelper::uniqueNum();
 
-//Generate guid
+//生成唯一的 guid
 StrHelper::guid();
 
-//Random string
+//随机字长度的随机字符串
 StrHelper::random($length = 6, $type = 'string')
 
 ```
@@ -75,7 +75,24 @@ ValidateHelper::checkEmail($email);
 //Check it's an HTTP address or not
 ValidateHelper::isHttp($str);
 
+//验证是否是 json 字符串
+ValidateHelper::isJson($str)
+
 ```
+## HttpHelper
+```php
+
+//curl post 请求封装
+HttpHelper::curlPost($url, $data, $options = [])
+
+//curl get 请求封装
+HttpHelper::curlGet($url, $data, $options = [])
+
+//curl 请求封装
+curl($method, $url, $data='', $options = [])
+
+```
+
 
 ## Results 处理结果类的封装
 

@@ -49,4 +49,14 @@ class ValidateHelper
         }
         return false;
     }
+
+    /**
+     * 验证是否是 json 字符串
+     * @param $str
+     * @return bool
+     */
+    public static function isJson($str){
+        json_decode($str);
+        return (json_last_error() == JSON_ERROR_NONE);
+    }
 }
