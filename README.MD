@@ -4,7 +4,7 @@
 
     composer require jsyqw/utils
     
-## ArrayHelper
+## 数组助手类 ArrayHelper
 ```php
 
 //Converts an object or an array of objects into an array.
