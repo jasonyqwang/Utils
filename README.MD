@@ -27,13 +27,13 @@ ArrayHelper::isAssoc($array);
 ## FileHelper
 ```php
 
-//Convert camel case to human readable format
+//把文件大小格式化成友好格式
 FileHelper::format($bytes, $decimals = 2);
 
-//Delete dir and files
+//删除文件 和 目录
 FileHelper::delDir($path, $isDelCurrent = false);
 
-//Get files extension
+//获取文件扩展
 FileHelper::getExt($str);
 
 ```
@@ -41,10 +41,10 @@ FileHelper::getExt($str);
 ## IPHelper
 ```php
 
-//Get client`s real ip
+//获取客户端真实ip
 IPHelper::remoteIp($useProxy = false)
 
-//Generate  random chinese`ip
+//随机生成 chinese`ip （爬虫伪造ip）
 IPHelper::randIp()
 
 ```
@@ -66,13 +66,13 @@ StrHelper::random($length = 6, $type = 'string')
 ## ValidateHelper
 ```php
 
-//Check phone rule
+//验证手机号
 ValidateHelper::checkPhone($phone);
 
-//Check email rule
+//验证邮箱
 ValidateHelper::checkEmail($email);
 
-//Check it's an HTTP address or not
+//验证是不是http开头的地址
 ValidateHelper::isHttp($str);
 
 //验证是否是 json 字符串
@@ -89,9 +89,38 @@ HttpHelper::curlPost($url, $data, $options = [])
 HttpHelper::curlGet($url, $data, $options = [])
 
 //curl 请求封装
-curl($method, $url, $data='', $options = [])
+HttpHelper::curl($method, $url, $data='', $options = [])
+
+//curl post 异步请求不需要返回结果
+HttpHelper::asyncCurlPost($url, $data, $options = [])
+
+//curl get 异步请求不需要返回结果
+HttpHelper::asyncGet($url, $data, $options = [])
 
 ```
+
+## RuntimeHelper
+```php
+// 启动计时
+RuntimeHelper::instance()->start();
+
+//结束计时并返回消耗的时间（单位 毫秒）
+RuntimeHelper::instance()->stop();
+
+//重新开始计时
+RuntimeHelper::instance()->reset();
+```
+
+## SystemHelper
+```php
+// 获取内存使用情况
+SystemHelper::getMemoryUsage();
+
+// 获取内存使用情况
+SystemHelper::logMsg($msg, $file = './log.txt');
+
+```
+
 
 
 ## Results 处理结果类的封装
