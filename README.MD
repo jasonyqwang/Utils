@@ -121,7 +121,23 @@ SystemHelper::logMsg($msg, $file = './log.txt');
 
 ```
 
-
+## TreeHelper
+```php
+// 树形递归 , $keyName 作为主键的名称
+TreeHelper::getTree($arr, $pid, $keyName = 'pid');
+// 返回示例
+[{
+	"id": "1",
+	"pid": "0",
+	"name": "test1",
+	"children": [{
+		"id": "4",
+		"pid": "1",
+		"name": "test1-1",
+		"children": []
+	}]
+}]
+```
     
         
     
