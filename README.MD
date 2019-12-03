@@ -139,7 +139,29 @@ TreeHelper::getTree($arr, $pid, $keyName = 'pid');
 }]
 ```
     
-        
+## DateTimeHelper 时间操作类
+```php
+//获取上个月的第一天起始时间（一般用于统计比较多）
+DateTimeHelper::startMonthDate(-1);
+//返回
+2019-11-01 00:00:00
+
+//获取下个月的第一天起始时间（一般用于统计比较多）
+DateTimeHelper::startMonthDate(1);
+//返回
+1572566400
+
+//获取上周的第一天（周一）起始时间
+DateTimeHelper::startWeekDate(-1);
+//返回
+2019-11-25 00:00:00
+
+//获取下周的第一天（周一）起始时间
+DateTimeHelper::startWeekTime(1);
+//返回 
+1574640000
+
+```        
     
     
     
