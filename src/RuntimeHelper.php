@@ -60,6 +60,7 @@ class RuntimeHelper
      * @return float
      */
     public function consumeTime(){
+        $this->stopTime = $this->getMicroTime();
         return round(($this->stopTime - $this->startTime) * 1000, 1);
     }
 
