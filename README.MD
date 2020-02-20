@@ -121,9 +121,47 @@ SystemHelper::logMsg($msg, $file = './log.txt');
 
 ```
 
-
+## TreeHelper
+```php
+// 树形递归 , $keyName 作为主键的名称
+TreeHelper::getTree($arr, $pid, $keyName = 'pid');
+// 返回示例
+[{
+	"id": "1",
+	"pid": "0",
+	"name": "test1",
+	"children": [{
+		"id": "4",
+		"pid": "1",
+		"name": "test1-1",
+		"children": []
+	}]
+}]
+```
     
-        
+## DateTimeHelper 时间操作类
+```php
+//获取上个月的第一天起始时间（一般用于统计比较多）
+DateTimeHelper::startMonthDate(-1);
+//返回
+2019-11-01 00:00:00
+
+//获取下个月的第一天起始时间（一般用于统计比较多）
+DateTimeHelper::startMonthDate(1);
+//返回
+1572566400
+
+//获取上周的第一天（周一）起始时间
+DateTimeHelper::startWeekDate(-1);
+//返回
+2019-11-25 00:00:00
+
+//获取下周的第一天（周一）起始时间
+DateTimeHelper::startWeekTime(1);
+//返回 
+1574640000
+
+```        
     
     
     
