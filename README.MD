@@ -55,6 +55,10 @@ IPHelper::randIp()
 //生成唯一数字 eg: YYYYMMDDHHIISSNNNNNNNNCC 24 
 StrHelper::uniqueNum();
 
+//生成短的唯一码 eg: A604571124663362【16位】
+//【A:对应年】+【6：月16进制】+【04:日期】+【57112：时间戳后五位】+【46633：毫秒5位】+【随机两位】
+StrHelper::shortUniqueStr();
+
 //生成唯一的 guid
 StrHelper::guid();
 
