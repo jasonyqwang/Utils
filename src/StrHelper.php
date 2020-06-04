@@ -10,8 +10,23 @@ namespace Jsyqw\Utils;
 class StrHelper
 {
     /**
+     * 生成短的唯一码
+     * eg：A604571124663362【16位】
+     * 【A:对应年】+【6：月16进制】+【04:日期】+【57112：时间戳后五位】+【46633：毫秒5位】+【随机两位】
+     * @return string
+     */
+    public static function shortUniqueStr(){
+        $yArr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O','P', 'Q', 'R', 'S', 'T','U', 'V'];
+        $i = date('Y') - 2020;
+        $yCode = isset($yArr[$i]) ? $yArr[$i] : 'Z';
+        $str = $yCode . strtoupper(dechex(date('m'))) . date('d') . substr(time(), -5) . substr(microtime(), 2, 5) . sprintf('%02d', rand(0, 99));
+        return $str;
+    }
+
+    /**
      * 生成唯一数字
      * @return string eg: YYYYMMDDHHIISSNNNNNNNNCC 24位
+     * 格式：YYYY-MMDD-HHII-SS-NNNN,NNNN-CC，其中：YYYY=年份，MM=月份，DD=日期，HH=24格式小时，II=分，SS=秒，NNNNNNNN=随机数，CC=检查码
      */
     public static function uniqueNum(){
         //格式主体（YYYYMMDDHHIISSNNNNNNNN）
