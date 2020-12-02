@@ -10,16 +10,38 @@ namespace Jsyqw\Utils;
 class StrHelper
 {
     /**
-     * 生成短的唯一码
-     * eg：A604571124663362【16位】
-     * 【A:对应年】+【6：月16进制】+【04:日期】+【57112：时间戳后五位】+【46633：毫秒5位】+【随机两位】
+     * 生成短的唯一码，可以根据编码的值推算出来年、月、日
+     * @param $startYear 短唯一码的起始年份，默认是2020年
+     * eg：A604571124663362【16位+】
+     * 【A:对应年 A-Z】+【6：月16进制】+【04:日期】+【57112：时间戳后五位】+【46633：毫秒5位】+【随机两位】
+     * 1.如果年份年份大于24年，则对第一个字符倍增操作，比如2046 则以 AA 开头，
+     * 2.如果传入的起始年份大于当前年份，则返回的字符串前面增加“-”符号
      * @return string
      */
-    public static function shortUniqueStr(){
-        $yArr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O','P', 'Q', 'R', 'S', 'T','U', 'V'];
-        $i = date('Y') - 2020;
-        $yCode = isset($yArr[$i]) ? $yArr[$i] : 'Z';
-        $str = $yCode . strtoupper(dechex(date('m'))) . date('d') . substr(time(), -5) . substr(microtime(), 2, 5) . sprintf('%02d', rand(0, 99));
+    public static function shortUniqueStr($startYear = 2020){
+        $yArr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O','P', 'Q', 'R', 'S', 'T','U', 'V', 'W', 'X', 'Y', 'Z'];
+        $curYear = date('Y');
+        $i = $curYear - $startYear;
+        $prefix = '';
+        if($i < 0){
+            //throw new \Exception("传入年份{$startYear}不能大于于当前年份{$curYear}");
+            $prefix = '-';
+            $i = -$i;
+        }
+        $count = count($yArr);
+        //向下取整：floor()  eg: floor(5.1);   //5
+        $num = floor($i / $count);
+        if($num > 0){
+            $remainder = $i % $count;
+            $code = $yArr[$remainder];
+            $yCode = $code;
+            for ($j = 0; $j < $num; $j++){
+                $yCode .= $code;
+            }
+        }else{
+            $yCode = $yArr[$i];
+        }
+        $str = $prefix.$yCode . strtoupper(dechex(date('m'))) . date('d') . substr(time(), -5) . substr(microtime(), 2, 5) . sprintf('%02d', rand(0, 99));
         return $str;
     }
 
