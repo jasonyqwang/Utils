@@ -72,7 +72,7 @@ class FileHelper
 
     /**
      * Get files extension
-     * 获取文件后缀
+     * 获取文件后缀,统一返回小写的后缀
      * @param $str
      * @return mixed|string
      */

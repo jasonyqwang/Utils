@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "phpoffice/phpexcel": "^1.8"
+    },
     "autoload": {
         "psr-4": {
             "Jsyqw\\Utils\\": "src/"
