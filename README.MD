@@ -171,7 +171,44 @@ DateTimeHelper::startWeekTime(1);
 
 ```        
     
-## Excel上传导入的工具类 包含导入和映射成导入对象的List集合
+## Excel处理工具类，根据excel首行配置，自动映射成数据库字段的数组结构
+```php
+/**
+    $file: excel 文件路径
+    数据库字段 birthday 和excel表头中的数据 "出生日期" 对应，
+    数据库字段 name 和excel表头中的数据 "名称" 对应，
+    数据库字段 height 和excel表头中的数据 "身高" 对应，
+*/
 
+$data = ExcelHelper::instance()->getData($file, ["birthday" => "出生日期", "name" => "名称", "height" => "身高"]);
+```
+$data 的数据如下：
+```json
+[{
+    "B": "男",
+    "C": "打篮球",
+    "E": 70,
+    "G": null,
+    "name": "张三",
+    "height": 180,
+    "birthday": "2000年11月13日"
+}, {
+    "B": "女",
+    "C": null,
+    "E": 50,
+    "G": null,
+    "name": "李四",
+    "height": 160,
+    "birthday": "2001年12月3日"
+}, {
+    "B": "女",
+    "C": "画画",
+    "E": 40,
+    "G": null,
+    "name": "王五",
+    "height": 170,
+    "birthday": "1992年1月13日"
+}]
+```
     
     

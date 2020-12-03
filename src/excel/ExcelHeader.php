@@ -4,7 +4,7 @@
  * excel header map
  */
 
-namespace Jsyqw\Utils\excel;
+namespace Jsyqw\Utils\Excel;
 
 
 use Jsyqw\Utils\Exceptions\UtileExcelException;

@@ -4,7 +4,7 @@
  * Excel Data
  */
 
-namespace Jsyqw\Utils\excel;
+namespace Jsyqw\Utils\Excel;
 
 
 use Jsyqw\Utils\Exceptions\UtileExcelException;
@@ -48,6 +48,20 @@ class ExcelData
      * @var file path
      */
     protected $filePath;
+
+    /**
+     * Should formulas be calculated
+     * 是否应计算公式
+     * @var $calculateFormulas boolean  default true
+     */
+    public $calculateFormulas = true;
+
+    /**
+     * Should formatting be applied to cell values
+     * 是否应将格式应用于单元格值
+     * @var $formatData boolean  default true
+     */
+    public $formatData = true;
 
     /**
      * set excel file path
@@ -104,6 +118,23 @@ class ExcelData
     }
 
     /**
+     * Get data
+     * @param int $startRow
+     * @return array
+     */
+    public function getData($startRow = 2, $maxRow = null){
+        if(!$maxRow){
+            $maxRow = $this->maxRow;
+        }
+        $data = [];
+        for ($rowIndex = $startRow; $rowIndex <= $maxRow; $rowIndex++){
+            $data[] = $this->getRowData($rowIndex);
+        }
+        return $data;
+    }
+
+
+    /**
      * 获取行数据
      * @param $row  start 0
      * @return array
@@ -111,9 +142,29 @@ class ExcelData
      */
     public function getRowData($row, $isTrim = true){
         $data = [];
-        for ($column = 0; $column <= $this->maxCol; $column++) {//列数是以A列开始
-            $value = $this->sheet->getCellByColumnAndRow($column, $row)->getValue();
+        for ($column = 0; $column <= $this->maxCol; $column++) {
+            $cell = $this->sheet->getCellByColumnAndRow($column, $row);
             $columnLetter = \PHPExcel_Cell::stringFromColumnIndex($column);
+            $value = null;
+            if ($cell->getValue() !== null) {
+                if ($cell->getValue() instanceof \PHPExcel_RichText) {
+                    $value = $cell->getValue()->getPlainText();
+                } else {
+                    if ($this->calculateFormulas) {
+                        $value = $cell->getCalculatedValue();
+                    } else {
+                        $value = $cell->getValue();
+                    }
+                }
+                if ($this->formatData) {
+                    //this is important for show date
+                    $style = $this->PHPReader->getCellXfByIndex($cell->getXfIndex());
+                    $value = \PHPExcel_Style_NumberFormat::toFormattedString(
+                        $value,
+                        ($style && $style->getNumberFormat()) ? $style->getNumberFormat()->getFormatCode() : \PHPExcel_Style_NumberFormat::FORMAT_GENERAL
+                    );
+                }
+            }
             $data[$columnLetter] = $value;
         }
         //is return excel header
