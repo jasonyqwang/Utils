@@ -171,7 +171,7 @@ DateTimeHelper::startWeekTime(1);
 
 ```        
     
-## Excel处理工具类，根据excel首行配置，自动映射成数据库字段的数组结构
+## ExcelHelper Excel读取数据工具类，根据excel首行配置，自动映射成数据库字段的数组结构
 ```php
 /**
     $file: excel 文件路径
@@ -180,7 +180,7 @@ DateTimeHelper::startWeekTime(1);
     数据库字段 height 和excel表头中的数据 "身高" 对应，
 */
 
-$data = ExcelHelper::instance($file)->getData(["birthday" => "出生日期", "name" => "名称", "height" => "身高"]);
+$data = ExcelHelper::instance()->getData($file, ["birthday" => "出生日期", "name" => "名称", "height" => "身高"]);
 ```
 $data 的数据如下：
 ```json
@@ -211,4 +211,11 @@ $data 的数据如下：
 }]
 ```
     
+## ExcelExportHelper Excel导出工具类
+
+    1.导出可设置表头数据
+    2.支持指定默认的表头的宽度
+    
+
+
     
