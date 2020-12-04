@@ -50,6 +50,16 @@ class ExcelData
     protected $filePath;
 
     /**
+     * Is return excel index num
+     * @var bool
+     */
+    public $isReturnExcelIndex = true;
+    /**
+     * @var string
+     */
+    public $excelRowIndexCulumn = 'row_index';
+
+    /**
      * Should formulas be calculated
      * 是否应计算公式
      * @var $calculateFormulas boolean  default true
@@ -166,6 +176,9 @@ class ExcelData
                 }
             }
             $data[$columnLetter] = $value;
+        }
+        if($this->isReturnExcelIndex){
+            $data[$this->excelRowIndexCulumn] = $row;
         }
         //is return excel header
         if($this->excelHeader){

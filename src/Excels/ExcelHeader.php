@@ -79,8 +79,10 @@ class ExcelHeader
         foreach ($this->columnMapExcelCellIndex as $index => $name){
             if(isset($rowData[$index])){
                 $rowData[$name] = $rowData[$index];
-                unset($rowData[$index]);
+            }else{
+                $rowData[$name] = null;
             }
+            unset($rowData[$index]);
         }
     }
 }

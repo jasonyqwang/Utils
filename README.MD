@@ -180,7 +180,7 @@ DateTimeHelper::startWeekTime(1);
     数据库字段 height 和excel表头中的数据 "身高" 对应，
 */
 
-$data = ExcelHelper::instance()->getData($file, ["birthday" => "出生日期", "name" => "名称", "height" => "身高"]);
+$data = ExcelHelper::instance($file)->getData(["birthday" => "出生日期", "name" => "名称", "height" => "身高"]);
 ```
 $data 的数据如下：
 ```json
