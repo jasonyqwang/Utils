@@ -7,8 +7,8 @@
 namespace Jsyqw\Utils;
 
 
-use Jsyqw\Utils\Excel\ExcelData;
-use Jsyqw\Utils\Excel\ExcelHeader;
+use Jsyqw\Utils\Excels\ExcelData;
+use Jsyqw\Utils\Excels\ExcelHeader;
 
 class ExcelHelper
 {

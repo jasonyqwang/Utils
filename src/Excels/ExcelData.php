@@ -4,7 +4,7 @@
  * Excel Data
  */
 
-namespace Jsyqw\Utils\Excel;
+namespace Jsyqw\Utils\Excels;
 
 
 use Jsyqw\Utils\Exceptions\UtileExcelException;
