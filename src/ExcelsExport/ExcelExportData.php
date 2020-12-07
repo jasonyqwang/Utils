@@ -159,10 +159,16 @@ class ExcelExportData
      * @throws \PHPExcel_Writer_Exception
      */
     private function output($excelName = null){
+        if(!$excelName){
+            $excelName = StrHelper::shortUniqueStr().'.xlsx';
+        }
         $file = $this->getFile($excelName);
         $objWriter = \PHPExcel_IOFactory::createWriter($this->objPHPExcel,'Excel2007');
         $objWriter->save($file);
-        return $file;
+        return [
+            'excelName' => $excelName,
+            'file' => $file
+        ];
     }
 
     /**
@@ -170,9 +176,6 @@ class ExcelExportData
      * @return string
      */
     public function getFile($excelName){
-        if(!$excelName){
-            $excelName = StrHelper::shortUniqueStr().'.xlsx';
-        }
         $file = $this->getFilePath().$excelName;
         return $file;
     }

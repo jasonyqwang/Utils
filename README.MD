@@ -211,7 +211,7 @@ $data 的数据如下：
 }]
 ```
     
-## ExcelExportHelper Excel导出工具类
+## ExcelExportData Excel导出工具类
 
     1.导出可设置表头数据
     2.支持指定默认的表头的宽度
@@ -234,8 +234,8 @@ $excelExportData = new ExcelExportData();
 $excelExportData->setExcelExportHeader($excelExportHeader);
 //可以选择导出的路径
 $path ='/xxx/xxx/temp';
-$excelName = "test.xlsx";
-$excelExportData->setFilePath($path, $excelName);
-$file = $excelExportData->create($list);
+$excelExportData->setFilePath($path);
+//data eg: ['excelName' => $excelName, 'file' => $file]
+$data = $excelExportData->create($list);
 ```
     
