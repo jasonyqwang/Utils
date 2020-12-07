@@ -3,7 +3,7 @@
  * User: Jason Wang
  */
 
-namespace Jsyqw\Utils\ExcelExport;
+namespace Jsyqw\Utils\ExcelsExport;
 
 
 class ExcelExportCell

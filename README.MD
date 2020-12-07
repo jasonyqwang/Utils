@@ -215,7 +215,27 @@ $data 的数据如下：
 
     1.导出可设置表头数据
     2.支持指定默认的表头的宽度
-    
+    3.可以定制设置某一列表头的宽度
 
-
+使用方法如下：
+```php
+//example
+$header = [
+    'name' => '名称',
+    'birthday' => '生日',
+    'hobby' => '爱好',
+];
+//Set the excel header 
+$excelExportHeader = new ExcelExportHeader($header);
+//可以针对某一列Excel来设置宽度，默认情况 30 的宽度
+$excelExportHeader->getHeaderColumnCell('name')->width = 30;
+//导出Excel 数据
+$excelExportData = new ExcelExportData();
+$excelExportData->setExcelExportHeader($excelExportHeader);
+//可以选择导出的路径
+$path ='/xxx/xxx/temp';
+$excelName = "test.xlsx";
+$excelExportData->setFilePath($path, $excelName);
+$file = $excelExportData->create($list);
+```
     

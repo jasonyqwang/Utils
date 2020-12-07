@@ -4,7 +4,7 @@
  * Excel header map
  */
 
-namespace Jsyqw\Utils\ExcelExport;
+namespace Jsyqw\Utils\ExcelsExport;
 
 
 use Jsyqw\Utils\Exceptions\UtileExcelException;
@@ -12,10 +12,16 @@ use Jsyqw\Utils\Exceptions\UtileExcelException;
 class ExcelExportHeader
 {
     /**
-     * The default header index
+     * The default header row start index
      * @var int
      */
-    public $headerIndex = 1;
+    public $headerRowStartIndex = 1;
+
+    /**
+     * The default header column start index
+     * @var int
+     */
+    public $headerColumnStartIndex = 1;
 
     /**
      * 头部字段的映射关系
