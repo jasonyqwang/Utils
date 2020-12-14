@@ -109,12 +109,14 @@ class ExcelData
      */
     public function loadFile($filePath){
         $this->setFilePath($filePath);
-
         $this->PHPReader = \PHPExcel_IOFactory::load($filePath);
+
         $sheet = $this->PHPReader->getActiveSheet();
         //init hight row and column
-        $this->highestRow = $sheet->getHighestRow();
-        $this->highestColumm = $sheet->getHighestColumn();
+//        $this->highestRow = $sheet->getHighestRow();
+//        $this->highestColumm = $sheet->getHighestColumn();
+        $this->highestRow = $sheet->getHighestDataRow();
+        $this->highestColumm = $sheet->getHighestDataColumn();
 
         //init max row and max column
         $pRange = 'A1:'.$this->highestColumm.$this->highestRow;
