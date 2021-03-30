@@ -109,6 +109,7 @@ HttpHelper::asyncGet($url, $data, $options = [])
 
 ## RuntimeHelper
 ```php
+//一，单例的方式使用
 // 启动计时
 RuntimeHelper::instance()->start();
 
@@ -117,6 +118,19 @@ RuntimeHelper::instance()->stop();
 
 //重新开始计时
 RuntimeHelper::instance()->reset();
+
+//获取耗时（毫秒）
+RuntimeHelper::instance()->consumeTime();
+
+//二、以对象的方式使用（比如在swoole获取workerman中）
+$runtimeHelper = new RuntimeHelper();
+//开始计时
+$runtimeHelper->start();
+//停止计时
+$runtimeHelper->stop();
+//获取耗时（毫秒）
+$runtimeHelper->consumeTime();
+
 ```
 
 ## SystemHelper

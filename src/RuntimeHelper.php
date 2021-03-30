@@ -1,6 +1,6 @@
 <?php
 /**
- * 用于计算程序运行的时间(单例)
+ * 用于计算程序运行的时间(可以以单例方式使用)
  *
  * @author  jason <jasonwang1211@gmail.com>
  */
@@ -13,10 +13,6 @@ class RuntimeHelper
     private static $_instance = null;
     public $startTime = 0;
     public $stopTime = 0;
-
-    private function __construct()
-    {
-    }
 
     /**
      * 实例化
