@@ -13,7 +13,7 @@ class ValidateHelper
      * @return bool
      */
     public static function checkPhone($phone){
-        if(preg_match("/^1[345789]{1}\d{9}$/",$phone)){
+        if(preg_match("/^1[3456789]{1}\d{9}$/",$phone)){
             return true;
         }else{
             return false;
