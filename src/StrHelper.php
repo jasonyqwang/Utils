@@ -102,7 +102,7 @@ class StrHelper
         $code = '';
         $strlen = strlen($string) - 1;
         for ($i = 0; $i < $length; $i++) {
-            $code .= $string{mt_rand(0, $strlen)};
+            $code .= $string[mt_rand(0, $strlen)];
         }
         return $code;
     }
