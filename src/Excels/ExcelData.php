@@ -83,7 +83,7 @@ class ExcelData
             throw new UtileExcelException("{$filePath} not exist!");
         }
         $ext = strtolower(FileHelper::getExt($filePath));
-        if(!in_array($ext, ['xls', 'xlsx'])){
+        if($ext && !in_array($ext, ['xls', 'xlsx'])){
             throw new UtileExcelException("the file ext '{$ext}' error!");
         }
         $this->filePath = $filePath;
